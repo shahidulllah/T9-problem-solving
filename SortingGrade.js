@@ -19,5 +19,4 @@ function sortByAverageGrade(studentsArray) {
   });
 }
 
-const sortedStudents = sortByAverageGrade(students);
-console.log(sortedStudents);
+console.log(sortByAverageGrade(students));
