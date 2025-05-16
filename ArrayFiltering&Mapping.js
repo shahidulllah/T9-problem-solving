@@ -11,7 +11,7 @@ const ArrayOfpeople = [
 ];
 
 const getMaleNames = (peopleArray) => {
-  return ArrayOfpeople.filter((person) => person.gender !== "female").map(
+  return peopleArray.filter((person) => person.gender !== "female").map(
     (person) => person.name
   );
 };
