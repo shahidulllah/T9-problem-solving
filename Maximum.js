@@ -7,7 +7,6 @@ function maxNum(arr) {
   return Math.max(...arr);
 }
 
-
 //minimum
 function minimum(arr) {
   return Math.min(arr);
