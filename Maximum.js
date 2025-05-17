@@ -6,4 +6,12 @@ const array = [1, 4, 5, 2, 5, 2, 5];
 function maxNum(arr) {
   return Math.max(...arr);
 }
+
+
+//minimum
+function minimum(arr) {
+  return Math.min(arr);
+}
+
+console.log(maxNum(array));
 console.log(maxNum(array));
