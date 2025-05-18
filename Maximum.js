@@ -16,12 +16,12 @@ function minimum(arr) {
 // console.log(maxNum(array));
 
 //average
-function average (arr){
-  const sum = arr.reduce((s, num)=>{
-   return s + num
-  }, 0)
+function average(arr) {
+  const sum = arr.reduce((s, num) => {
+    return s + num;
+  }, 0);
 
-  return sum/ arr.length 
+  return sum / arr.length;
 }
 
 console.log(average(array));
