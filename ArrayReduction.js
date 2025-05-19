@@ -14,4 +14,3 @@ function someOfEvenNum(arr) {
 }
 
 console.log(someOfEvenNum(arrayOfNum));
-
